@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.summary = 'chronic_between'
   s.files = Dir['lib/chronic_between.rb']
   s.authors = ['James Robertson']
-  s.add_runtime_dependency('chronic', '~> 0.10', '>=0.10.2')
+  s.add_runtime_dependency('gitlab-chronic', '~> 0.10', '>=0.10.2')
   s.add_runtime_dependency('app-routes', '~> 0.1', '>=0.1.19') 
   s.signing_key = '../privatekeys/chronic_between.pem'
   s.cert_chain  = ['gem-public_cert.pem']
