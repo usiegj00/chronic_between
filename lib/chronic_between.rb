@@ -2,7 +2,7 @@
 
 # file: chronic_between.rb
 
-require 'chronic'
+require 'gitlab-chronic'
 require 'date'
 require 'app-routes'
 
